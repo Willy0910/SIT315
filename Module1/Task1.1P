@@ -20,7 +20,7 @@ void loop()
   
   // If the motion sensor is activated, the sensorState is HIGH
   if (sensorState == HIGH) {
-    // digitalWrite: Set the digital pin 13 ON (HIGH)
+    // digitalWrite: Set the digital pin 13 (LED) ON (HIGH)
     digitalWrite(13, HIGH);
     Serial.println("Sensor Activated!");
     delay(1000);
