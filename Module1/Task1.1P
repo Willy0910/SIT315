@@ -10,7 +10,6 @@ void setup()
   pinMode(2, INPUT);
   pinMode(13, OUTPUT);
   Serial.begin(9600);
-
 }
 
 void loop()
@@ -29,5 +28,6 @@ void loop()
     Serial.println("Not Detected :(");
     delay(1000);
   }
+  
   delay(10); // Delay a little bit to improve simulation performance
 }
