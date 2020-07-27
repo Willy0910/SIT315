@@ -1,6 +1,6 @@
 /*
-  Read the motion sensor state,
-  Light the LED and write "Sensor Activated!" when detected
+  Read the motion sensor state, if the motion is detected,
+  Light the LED and write "Sensor Activated!"
 */
 
 int sensorState = 0;
