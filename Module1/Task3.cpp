@@ -28,7 +28,7 @@ ISR(PCINT2_vect)
   digitalWrite(11, red);
   
   if (red != 0)
-	Serial.println("Red On ...");
+    Serial.println("Red On ...");
   
   if (blue != 0)
     Serial.println("Blue On ...");
